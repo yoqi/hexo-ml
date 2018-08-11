@@ -1,5 +1,11 @@
 ---
 title: Hello World
+date: 2016-10-12 18:38:45
+tags: 
+- 标签
+- 标签
+mp3: http://domain.com/awesome.mp3
+cover: http://odwjyz4z6.bkt.clouddn.com/ml02/ml02cover2.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
