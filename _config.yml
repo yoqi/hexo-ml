@@ -3,18 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 天问项目介绍
 subtitle:
-description:
+description: 我们主要从事电子商城/app等开发。
 keywords:
-author: John Doe
-language:
+author: liuyuqi
+language: 
+- zh-cn
+- en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://blog.yoqi.me
+root: /hexo-ml/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,9 +75,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+	repository: https://github.com/yoqi/hexo-ml.git
+	branch: gh-pages
