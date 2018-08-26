@@ -4,7 +4,7 @@ date: 2016-10-12 18:38:45
 tags: 
 - 标签
 - 标签
-mp3: http://cdn5.lizhi.fm/audio/2018/07/07/2679375568128871942_hd.mp3
+mp3: http://cdn.yoqi.me/blog/wp-content/uploads/2018/08/2679375568128871942_hd.mp3
 cover: http://odwjyz4z6.bkt.clouddn.com/ml02/ml02cover2.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
