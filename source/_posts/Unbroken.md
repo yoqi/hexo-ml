@@ -4,7 +4,7 @@ date: 2018-08-27 07:17:46
 tags: 
 - Motivation
 mp3: 
-cover: /images/BaiduHi_2018-8-27_10-41-47.png
+cover: /images/BaiduHi_2018-8-27_10-41-47.jpg
 ---
 <video style="width:100%" controls="controls">
   <source src="http://cdn.yoqi.me/direct/2018-08-27/Unbroken%20-%20Motivational%20Video.mp4" type="video/mp4">

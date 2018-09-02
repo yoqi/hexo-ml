@@ -5,7 +5,7 @@ tags:
 - 标签
 - 标签
 mp3: http://cdn.yoqi.me/blog/wp-content/uploads/2018/08/2679375568128871942_hd.mp3
-cover: http://odwjyz4z6.bkt.clouddn.com/ml02/ml02cover2.jpg
+cover: /images/7.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -41,4 +41,11 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+### 代码块
+
+{% codeblock lang:objc %}
+[rectangle setX: 10 y: 10 width: 20 height: 20];
+{% endcodeblock %}
+
+### youtube视频
+{% youtube 0I647GU3Jsc %}
