@@ -34,8 +34,8 @@ Make me wanna savor every moment slowly, slowly
 让我想细细咀嚼生命中的每分每秒
 
 You fit me, tailor-made love, how you put it on
-你就像是我量身定做的灰姑娘，没人知道怎么为你穿上
-玻璃鞋
+你就像是我量身定做的灰姑娘，没人知道怎么为你穿上玻璃鞋
+
 Got the only key, know how to turn it on
 而我是唯一知道如何做的王子
 
@@ -43,8 +43,8 @@ The way you nibble on my ear, the only words I wanna hear
 你在我耳边的轻轻细语，那是我的天籁之音
 
 Baby take it slow so we can last long
-宝贝，所有的爱情都需要温存，只有这样它
-才会长久
+宝贝，所有的爱情都需要温存，只有这样它才会长久
+
 Oh, tú, tú eres el imn y yo soy el metal
 你 你是磁石而我是金属
 
@@ -91,8 +91,8 @@ Y hacer de tu cuerpo todo un manuscrito
 把你的身体变成我的手稿
 
 (Sube, sube, sube, sube, sube)
-亲爱的，亲爱的，亲爱的，亲爱的
-，亲爱的
+亲爱的，亲爱的，亲爱的，亲爱的，亲爱的
+
 Quiero ver bailar tu pelo
 想要看你发丝飞扬
 
@@ -169,8 +169,8 @@ Y es que esa belleza es un rompecabezas
 你的美 如同打乱的拼图一样 令人着迷
 
 Pero pa’ montarlo aquí tengo la pieza
-但我会拼好的 因为缺失的那一块在我的手
-中
+但我会拼好的 因为缺失的那一块在我的手中
+
 ¡Oye!
 嘿！
 
@@ -199,8 +199,8 @@ Y hacer de tu cuerpo todo un manuscrito
 把你的身体变成我的手稿
 
 (Sube, sube, sube, sube, sube)
-亲爱的，亲爱的，亲爱的，亲爱的
-，亲爱的
+亲爱的，亲爱的，亲爱的，亲爱的，亲爱的
+
 Quiero ver bailar tu pelo
 想要看你发丝飞扬
 
@@ -240,6 +240,7 @@ I can move foreverm se quede contigo
 ¡Bailalo!
 bailalo！
 （加利西亚语）
+
 Pasito a pasito, suave suavecito
 一点一点 温柔再温柔
 
@@ -269,4 +270,4 @@ Y que olvides tu apellido (D.Y.)
 
 ### MV:
 
-{% youtube 0I647GU3Jsc %}
+{% youtube GmtTDvNcXcU %}
