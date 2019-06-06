@@ -11,7 +11,7 @@ cache:
     - node_modules
 env:
   global:
-    - GITHUB_REPO: github.com/jianboy/jianboy.github.io.git
+    - GITHUB_REPO: github.com/yoqi/hexo-ml.git
 before_install:
   - git config --global user.name "liuyuqi-travis"
   - git config --global user.email "liuyuqi.gov@msn.cn"
@@ -23,6 +23,7 @@ install:
 # 不用yarn的话这里改成 npm install 即可
   - yarn
 script:
+  - git.exe submodule update --progress --init -- "themes/diaspora"
   - hexo clean
   - hexo generate
 after_success:

@@ -89,5 +89,5 @@ theme: diaspora
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-	repository: https://github.com/yoqi/hexo-ml.git
-	branch: gh-pages
+  repository: https://github.com/yoqi/hexo-ml.git
+  branch: gh-pages
