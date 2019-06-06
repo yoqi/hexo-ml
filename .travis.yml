@@ -23,7 +23,8 @@ install:
 # 不用yarn的话这里改成 npm install 即可
   - yarn
 script:
-  - git.exe submodule update --progress --init -- "themes/diaspora"
+  - git checkout ql.blog
+  - git submodule update --progress --init -- "themes/diaspora"
   - hexo clean
   - hexo generate
 after_success:
