@@ -1,3 +1,3 @@
 [submodule "themes/diaspora"]
 	path = themes/diaspora
-	url = https://git.yoqi.me/lyq/hexo-theme-diaspora.git
+	url = http://git.yoqi.me/lyq/hexo-theme-diaspora.git
