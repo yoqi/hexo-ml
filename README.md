@@ -23,6 +23,12 @@ git push
 # travis-cli auto build
 ```
 
+部署方式三 github ci/cd：
+```
+git push
+# action push
+```
+
 ## 自定义域名
  * push 项目到 github.com gh-page分支
  * 这样当初次访问的时候，GitHub会自动部署项目ph-page到github.io 。注意这个分支由于是自动生成的，在项目中不要加入git版本管理
