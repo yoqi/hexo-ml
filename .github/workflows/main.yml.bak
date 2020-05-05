@@ -28,6 +28,7 @@ jobs:
       run: |
         mkdir -p ~/.ssh/
         echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+        cat ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         git config --global user.name "liuyuqi-travis"
@@ -55,4 +56,8 @@ jobs:
       run: |
         hexo clean
         hexo g
-        hexo deploy
+        cd ./public
+        git init
+        git add --all .
+        git commit -m "Action CI Auto Builder"
+        git push --quiet --force git@github.com:yoqi/hexo-ml.git master:gh-pages
