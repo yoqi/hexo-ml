@@ -29,6 +29,7 @@ script:
   - hexo generate
 after_success:
   - cd ./public
+  - ls -la
   - git init
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
