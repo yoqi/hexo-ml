@@ -10,6 +10,8 @@ cover: /images/BaiduHi_2018-9-17_19-20-47.png
 ![](/images/BaiduHi_2018-9-17_19-20-47.png)
 来源：Peter Bence
 
+这首歌太好听了，youtube 上播放量60亿，是目前播放量最多的视频。
+
 **仔细听**
 
 Come on over in my direction
