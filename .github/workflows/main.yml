@@ -1,0 +1,69 @@
+name: Hexo Blog CI
+
+on:
+  push:
+    branches: [ ql.blog ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [12.x]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+        ref: ql.blog # checkout ql.blog branch
+    
+    - name: set node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - name: Cache node modules
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: yarn
+      
+    - name: Deploy blog to github pages
+      run: |
+        npm i -g hexo-cli
+        hexo clean
+        hexo g
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages
+
+    # - name: Update Gitee Pages
+    #   uses: yanglbme/gitee-pages-action@main
+    #   with:
+    #     gitee-username: ccknbc
+    #     gitee-password: ${{ secrets.GITEE_PASSWORD }}
+    #     gitee-repo: ccknbc/ccknbc
+
+    - name: deploy to server
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: 22
+        password: ${{ secrets.PASSWORD }}
+        source: "public/"
+        target: ${{ secrets.TARGET }}
+
