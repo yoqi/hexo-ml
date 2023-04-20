@@ -1,0 +1,36 @@
+---
+title: Hey, It's me
+layout: resume
+---
+
+> 思想、创作、灵感都源于阅读。
+
+### 教育经历
+1. 工科硕士，计算机应用技术专业，河北工业大学，2011.9-2014.3
+2. 理科学士，应用物理专业，河北工业大学，2007.9-2011.7
+
+### 工作经历
+2. IT企划 科长，北京京东方显示技术有限公司，2017/9 - 至今
+1. 信息管理工程师，北京京东方光电科技有限公司，2014/2 - 2017/8
+
+### 项目经历
+1. XXXXXXXXXXXXXXXXXXXX，XXXX
+2. XXXXXXXXXXXXXXXXXXXX，XXXX
+3. XXXXXXXXXXXXXXXXXXXX，XXXX
+2. XXXXXXXXXXXXXXXXXXXX，XXXX
+3. XXXXXXXXXXXXXXXXXXXX，XXXX
+
+### 个人技能
+1. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+2. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+1. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+2. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+1. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+2. YYYYYYYYYYYYYYYYYYYYYYYY，YYYY
+
+### 关于我
+- 伪程序员
+- 关注移动互联网
+- 算不上果粉的Apple产品热爱者
+- Linux爱好者
+- 享受命令行的快感

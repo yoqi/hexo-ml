@@ -1,0 +1,5 @@
+[hook "postcommit"]
+[hook "postpush"]
+	cmdline = hexo -g d
+	wait = true
+	show = false
