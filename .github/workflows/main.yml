@@ -20,12 +20,12 @@ jobs:
         ref: ql.blog # checkout ql.blog branch
     
     - name: set node.js
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         
     - name: Cache node modules
-      uses: actions/cache@v1
+      uses: actions/cache@v3
       id: cache
       with:
         path: node_modules

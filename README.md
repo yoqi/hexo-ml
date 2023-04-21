@@ -5,6 +5,7 @@ https://yoqi.github.io/hexo-ml/
 ## 初始化项目
 
 ```
+git submodule update --init --recursive
 npm install hexo-cli -g
 hexo init blog
 cd blog
